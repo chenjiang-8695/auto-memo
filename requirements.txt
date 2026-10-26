@@ -1,0 +1,7 @@
+PySide6-Essentials>=6.7
+faster-whisper>=1.0
+av>=11,<13
+sounddevice>=0.4
+keyboard>=0.13
+winsdk>=1.0.0b5
+numpy>=1.26

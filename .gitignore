@@ -1,0 +1,26 @@
+# 虚拟环境与缓存（体积大头，不入库）
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 用户数据（备忘录内容、配置、SQLite 及其 WAL/SHM）
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# 构建产物
+build/
+dist/
+*.spec
+
+# 个人材料（课程实训报告等，含学号姓名，不随源码公开）
+*.docx
+*.doc
+*.pdf
+
+# 日志与临时文件
+*.log
+*.tmp

@@ -1,5 +1,11 @@
 # 自动备忘录
 
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey)](#)
+[![storage](https://img.shields.io/badge/storage-SQLite%20local-informational)](#)
+[![network](https://img.shields.io/badge/network-none-success)](#)
+
 Windows 桌面备忘录 / 提醒小工具：常驻悬浮条、托盘、全局热键、截图圈选 OCR 识别、
 语音输入、本地 SQLite 存储。界面用 PySide6。
 
@@ -45,3 +51,7 @@ app/ui/                 悬浮条 / 主窗口 / 编辑器 / 提醒对话框 / �
 - 不联网：没有上传、没有云同步、没有账号
 - 语音与 OCR 优先用 Windows 自带能力，缺依赖时会在界面上说明而不是静默失败
 - 本项目为个人学习用途，未做代码签名，分发给他人时 Windows 可能提示未知发布者
+
+## 许可
+
+[MIT](LICENSE)。
